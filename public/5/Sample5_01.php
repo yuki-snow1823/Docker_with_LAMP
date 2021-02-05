@@ -1,5 +1,5 @@
 <?php
-  $link = mysqli_connect("localhost", "jikkyo", "pass", "jikkyo_pension");
+  $link = mysqli_connect("db", "root", "root", "jikkyo_pension");
   if ($link == null) {
     die("接続に失敗しました");
   }

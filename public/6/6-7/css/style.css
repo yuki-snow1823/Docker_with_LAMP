@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url("style_Deco.css");
+
+/**************** 共通 ****************/
+
+html {
+  overflow: scroll; /* 領域をスクロール表示 */
+}
+
+body {
+  letter-spacing: 1px;  /* 文字の間隔 */
+  font-size: 12px;      /* 文字の大きさ */
+  color: #5A482B;       /* 文字色 */
+}
+
+br {
+  letter-spacing: normal;  /* 文字の間隔 */
+}
+
+a {
+  color: #5A482B;         /* 文字色 */
+  text-decoration: none;  /* 文字装飾 */
+}
+
+a:hover {
+  color: #6289C6;         /* 文字色 */
+}
+
+/**************** ヘッダー ****************/
+
+#header {
+  position: relative;
+  width: 787px;
+  margin: 0 auto;
+}
+
+#pr {
+  position: absolute;
+  width: 787px;
+  left: 0;
+  top: 0;
+}
+
+#header h1 {
+  margin: 0;
+  padding-top: 25px;
+ }
+
+#contact {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/**************** メニュー ****************/
+
+#menu {
+  width: 787px;
+  margin: 0 auto;
+}
+
+#menu ul {
+  padding: 0;
+  text-align: center;
+}
+
+#menu li {
+  float: left;
+  width: 129px;
+}
+
+/**************** アイキャッチ ****************/
+
+#icatch {
+  width: 787px;
+  margin: 0 auto;
+}
+
+/**************** コンテンツ ****************/
+
+#contents {
+  width: 787px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#pageTop {
+  clear: both;
+  padding: 20px 0;
+  text-align: right;
+}
+
+/**************** メイン（コンテンツ内） ****************/
+
+#main {
+  float: right;
+  width: 567px;
+}
+
+/**************** サイド（コンテンツ内） ****************/
+
+#side {
+  float: left;
+  width: 200px;
+}
+
+/**************** フッター ****************/
+
+#footer {
+  padding: 5px 0;
+  text-align: center;
+}

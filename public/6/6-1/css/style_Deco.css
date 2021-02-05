@@ -1,0 +1,320 @@
+/* 共通（装飾追加） */
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* ヘッダー（装飾追加）*/
+#header img {
+  width: 508px;
+}
+#header h1 {
+  margin: 0;
+  padding-top: 25px;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+#header h2 {
+  padding: 1px;
+  font-size: 12px;
+  color: #ffffff;
+  padding-right: 6px;
+  padding-left: 6px;
+  background: #6289C6;
+  border: 1px solid #C1C1C1;
+}
+
+#header #pr p {
+  margin: 0;
+  font-size: 11px;
+}
+
+#header #contact li {
+  list-style: none;
+  float: left;
+  font-size: 11px;
+  margin-left: 15px;
+}
+
+#header #contact .tel {
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1.0;
+}
+
+/* メニュー（装飾追加）*/
+#menu li {
+  color: #000000;
+  text-align: center;
+  list-style-type: none;
+}
+#menu li a {
+  display: block;
+  width: 129px;
+  line-height: 40px;
+  border-collapse: collapse;
+  border: 1px solid #D8D8D8;
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+#menu li a:hover {
+  color: #6289C6;
+  z-index: 100;
+}
+
+/* メイン（装飾追加）*/
+#contents {
+  clear: both;
+}
+
+#main a {
+  padding: 1px;
+  font-size: 14px;
+  color: #ffffff;
+  padding-right: 6px;
+  padding-left: 6px;
+  background: #6289C6;
+  border: 1px solid #C1C1C1;
+  text-align: center;
+}
+
+#main a:hover {
+  color: #e0e7f4;
+  text-decoration: underline;
+}
+
+#main h2 {
+  margin-bottom: 8px;
+  padding: 0 0 0 10px;
+  color: #5A482B;
+  font-family: Georgia, "MS 明朝", "Hiragino Mincho Pro W3", "ヒラギノ明朝 Pro W3", serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 28px;
+  border: 1px solid #D8D8D8;
+}
+
+#main h3 {
+  margin-bottom: 3px;
+  padding-left: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #999;
+}
+
+#main h4 {
+  margin-bottom: 2px;
+  padding: 2px;
+  font-size: 12px;
+  background: #6289C6;
+  color: #ffffff;
+}
+
+#main h5 {
+  margin-bottom: 2px;
+  font-size: 12px;
+  border-bottom: 1px solid #5A482B;
+}
+
+#main h6 {
+  margin-bottom: 2px;
+  font-size: 12px;
+}
+
+#main p {
+  margin: 0 0 1em 0;
+  font-size: 12px;
+}
+
+#main ul,
+ol,
+dl {
+  font-size: 12px;
+}
+
+#main dt {
+  margin-bottom: 3px;
+}
+
+#main dd {
+  padding: 0;
+  margin: 0 0 0.5em 1em;
+  padding: 3px;
+  background: #ffffff;
+}
+
+#main dl.information dt {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#main dl.information dd {
+  margin: 5px 0;
+  padding: 0 0 0.5em 8em;
+}
+
+#main table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#main table th {
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  background: #EBEADD;
+}
+
+#main table td {
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+#main table.input th {
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  background: #EBEADD;
+  width: 180px;
+}
+
+#main table.input td {
+  padding: 5px;
+  font-size: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+#main table td.number{
+  text-align: right;
+}
+
+#main img.small {
+  width: 180px;
+}
+
+#main img.middle {
+  width: 240px;
+}
+
+#main img.big {
+  width: 540px;
+}
+
+#main .submit_a{
+  float: right;
+  padding: 1px;
+  font-size: 14px;
+  color: #ffffff;
+  padding-right: 6px;
+  padding-left: 6px;
+  background: #6289C6;
+  border: 1px solid #C1C1C1;
+  text-align: center;
+}
+
+#main .error{
+  color: #ff0000;
+  font-weight: bold;
+}
+
+#contents h2.host {
+  margin-bottom: 8px;
+  padding: 0 0 0 10px;
+  color: #5A482B;
+  font-family: Georgia, "MS 明朝", "Hiragino Mincho Pro W3", "ヒラギノ明朝 Pro W3", serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 28px;
+  border: 1px solid #D8D8D8;
+}
+
+#contents table.host {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#contents table.host th {
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  background: #EBEADD;
+  white-space: nowrap;
+}
+
+#contents table.host td {
+  padding: 5px;
+  font-size: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+#contents .submit_a{
+  float: right;
+  padding: 1px;
+  font-size: 14px;
+  color: #ffffff;
+  padding-right: 6px;
+  padding-left: 6px;
+  background: #6289C6;
+  border: 1px solid #C1C1C1;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* サイド（装飾追加）*/
+#side {
+  background: #e0e7f4;
+}
+
+#side section {
+  margin-bottom: 10px;
+}
+
+#side h2 {
+  padding: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 10px;
+  background: #6289C6;
+  border-bottom: 1px solid #C1C1C1;
+  border-right: 1px solid #C1C1C1;
+  text-align: center;
+}
+
+#side ul {
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+
+#side li {
+  padding: 5px 0 5px 0;
+  line-height: 1.4;
+  list-style: none;
+}
+
+#side li a {
+  display: block;
+  padding-left: 12px;
+  ;
+}
