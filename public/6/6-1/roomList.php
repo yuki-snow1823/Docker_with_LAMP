@@ -1,4 +1,5 @@
 <?php
+// 変数が入る
   if (empty($_GET["tid"]) == true) {
       $tid = "";
   } else {
